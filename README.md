@@ -1,4 +1,4 @@
-# Project: Google Sheets Integration App
+# Project: Google Sheets Integration App - Backend
 
 **Objective**: Create an app that integrates seamlessly with Google Sheets. This app will allow users to view, add, edit, and delete data within a Google Sheet directly from the app. It will feature real-time syncing and a clean, user-friendly interface.
 
@@ -17,7 +17,7 @@
 - **Composer** (for Laravel installation)
 - **Google Cloud Project** is configured with OAuth2 Client ID, Secret ID and Google Sheets API is enabled.
 
-### 1. Setting Up the Backend (Laravel)
+### Setting Up the Backend (Laravel)
 
 1. **Unzip the folder google_sheet_task**:
 
@@ -48,25 +48,7 @@
    ```bash
    php artisan serve
    ```
-   By default, this will start the server on `http://localhost:8000`.
-
-### 2. Setting Up the Frontend (Vue with Vite)
-
-1. **Navigate to Frontend Directory**:
-   ```bash
-   cd google_sheet_frontend
-   ```
-
-2. **Install Node Modules**:
-   ```bash
-   npm install
-   ```
-
-4. **Run the Frontend Server**:
-   ```bash
-   npm run dev
-   ```
-   This will start the frontend on `http://localhost:5173`.
+   By default, this will start the server on `http://localhost:8000`
 
 ---
 
